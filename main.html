@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Converso Binário -> Decimal</title>
     <script type="text/javascript" src="conversor.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Converso Binário -> Decimal</title>
+
 </head>
 <body>
     <h1>Conversor de números binários para decimais</h1>
-    <h3>Digite um número binário de até 8 digitos abaixo:</h2>
     <div class="formulario">
+        <h3>Digite um número binário de até 8 digitos:</h3>
         <form action="" id="formBin2Dec" class="forms">
-            <label for="campoBin">Número binário</label><br>
+            <label for="campoBin" id="labelCampoBin">Número binário:</label><br>
             <input type="text" id="campoBin" placeholder="Ex: 1001101" maxlength="8"><br>
-            <label for="result">Número decimal</label><br>
+            <label for="result" id="labelCampoResult">Número decimal:</label><br>
             <input type="text" id="result" placeholder="Resultado" readonly><br>
             <!--<input type="submit" value="CONVERTER" onclick="binToDec()">-->
         </form>

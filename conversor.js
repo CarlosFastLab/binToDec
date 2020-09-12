@@ -1,5 +1,5 @@
 function binToDec(bin) {
-    var bin = document.getElementById("campoBin").value;
+    bin = document.getElementById("campoBin").value;
     let dec = 0;
     console.log("Elemento capturado");
     
