@@ -12,15 +12,16 @@
     <h1>Conversor de números binários para decimais</h1>
     <div class="formulario">
         <h3>Digite um número binário de até 8 digitos:</h3>
-        <form action="" id="formBin2Dec" class="forms">
+        <form action="" id="formBin2Dec" class="forms" onsubmit="return false">
             <label for="campoBin" id="labelCampoBin">Número binário:</label><br>
-            <input type="text" id="campoBin" placeholder="Ex: 1001101" maxlength="8"><br>
+            <input type="text" id="campoBin" placeholder="Ex: 1001101" maxlength="8" autofocus onkeypress="numCheck(event)"><br>
             <label for="result" id="labelCampoResult">Número decimal:</label><br>
             <input type="text" id="result" placeholder="Resultado" readonly><br>
+            <button type="submit" onclick="binToDec()">CONVERTER</button>
             <!--<input type="submit" value="CONVERTER" onclick="binToDec()">-->
         </form>
 
-        <button type="button" onclick="binToDec()">CONVERTER</button>
+
     </div>
 </body>
 </html>
