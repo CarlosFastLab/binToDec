@@ -17,13 +17,13 @@ A aplicação se propõe a converte um número binário, digitado pelo usuário 
 
 ## Diário de implementações
 ### Dia 1 - 14/09/2020
-* Implementação de html base para testes iniciais da aplicação;
-* Implementação da função binToDec() para conversão do número binário para o número decimal, em JavaScript.
+* Implementação de html base para testes iniciais da aplicação
+* Implementação da função binToDec() para conversão do número binário para o número decimal, em JavaScript
 
 ### Dia 2 - 15/09/2020
-* Correções e atribuições de tags sobre o código html, implementação de CSS para estilização;
-* Implementação da função de restrição de carácteres digitáveis pelo usuário, através da função numCheck(), JavaScript.
+* Correções e atribuições de tags sobre o código html, implementação de CSS para estilização
+* Implementação da função de restrição de carácteres digitáveis pelo usuário, através da função numCheck(), JavaScript
 
 ### Dia 3 - 18/09/2020 
-* Remoção da chamada de window.alert() na função numCheck() e substituição por um alerta utilizando a tag html <div>;
-* Estilização do alerta através da tag <div>.
+* Remoção da chamada de window.alert() na função numCheck() e substituição por um alerta utilizando a tag html <div>
+* Estilização do alerta através da tag <div>
