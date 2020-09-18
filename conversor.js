@@ -1,5 +1,19 @@
 function numCheck(event) {
     var n = event.keyCode || event.which;
+    var hid = document.getElementById("hid");
+    if((n != 48) && (n != 49) && (n != 13)) {
+        event.preventDefault();
+        hid.style.display = "block";
+        console.log(hid + "capturado");
+        return false;
+    } else {
+        hid.style.display = "none";
+        return true;
+    }
+}
+
+/* function numCheck(event) {
+    var n = event.keyCode || event.which;
     if((n != 48) && (n != 49) && (n != 13)) {
         event.preventDefault();
         window.alert("Por favor use apenas os digitos 1 e 0 para este campo")
@@ -7,7 +21,7 @@ function numCheck(event) {
     } else {
         return true
     }
-}
+} */
 
 
 function binToDec(bin) {
