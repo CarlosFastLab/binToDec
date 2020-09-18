@@ -6,7 +6,7 @@ O projeto utiliza as linguagens e tecnologias html5, CSS e JavaScript (vanilla).
 Elaborada a caráter de estudo e aprofundamento de conhecimentos.
 
 ## Funcionalidades
-A aplicação se propõe a converte um número binário, digitado pelo usuário em um input do formulário, em um número decimal, que é exibido no input resultado do mesmo formulário. As teclas digitáveis pelo usuário são restringidas por meio da funçao numCheck(), implementada no arquivo Conversor.js.
+A aplicação se propõe a converte um número binário, digitado pelo usuário em um input do formulário, em um número decimal, que é exibido no input resultado do mesmo formulário. os valores inseríveis pelo usuário são restringidos por meio da funçao numCheck(), implementada no arquivo Conversor.js.
 <img src="https://github.com/CarlosFastLab/binToDec/blob/master/images/conversorapptela.jpg">
 
 ### Aplicação em funcionamento
