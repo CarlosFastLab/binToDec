@@ -8,8 +8,8 @@ Elaborada a caráter de estudo e aprofundamento de conhecimentos.
 ## Funcionalidades
 ### Conversor
 A aplicação se propõe a converte um número binário, digitado pelo usuário em um input do formulário, em um número decimal, que é exibido no input resultado do mesmo formulário. As teclas digitáveis pelo usuário são restringidas por meio da funçao numCheck(), implementada no arquivo Conversor.js.
-<placeholder>
-<placeholder>
+<img src="https://github.com/CarlosFastLab/binToDec/blob/master/images/conversorapptela.jpg">
+<img src="https://github.com/CarlosFastLab/binToDec/blob/master/images/conversorappfuncionamento.jpg">
 
 ### Restrição de digitos
-<placeholder>
+<img src="https://github.com/CarlosFastLab/binToDec/blob/master/images/conversorappalerta.jpg">
