@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="conversor.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Converso Binário -> Decimal</title>
+
+</head>
+<body>
+    <h1>Conversor de números binários para decimais</h1>
+    <div class="formulario">
+        <h3>Digite um número binário de até 8 digitos:</h3>
+        <form action="" id="formBin2Dec" class="forms" onsubmit="return false">
+            <label for="campoBin" id="labelCampoBin">Número binário:</label><br>
+            <input type="text" id="campoBin" placeholder="Ex: 1001101" maxlength="8" autofocus onkeypress="numCheck(event)"><br>
+            <div id="hid" class="fade-in" style="display:none;">
+                <p>Use apenas os digitos 1 e 0</p>
+            </div>
+            <label for="result" id="labelCampoResult">Número decimal:</label><br>
+            <input type="text" id="result" placeholder="Resultado" readonly><br>
+            <button type="submit" onclick="binToDec()">CONVERTER</button>
+            <!--<input type="submit" value="CONVERTER" onclick="binToDec()">-->
+        </form>
+
+
+    </div>
+</body>
+</html>
